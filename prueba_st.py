@@ -8,4 +8,4 @@ impuesto = st.slider("Tax (%)", 0, 100, 21)
 precio_final = precio * (1 + impuesto / 100)
 
 # Frontend: displaying the output
-st.write(f"💰 Final price with tax: {precio_final:.2f}")
+st.write(f"💰 Final price with tax baby: {precio_final:.2f}")
